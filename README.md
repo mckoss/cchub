@@ -22,7 +22,7 @@ A quick way to get started with ComputerCraft, is to add a turtle to your invent
 click the computer/turtle and type:
 
     TurtleOS 1.5
-    > pastebin get XXXXX cchub
+    > pastebin get r3nWqmim cchub
     > cchub connect mckoss
 
 *(replace mckoss with your own github account username.).

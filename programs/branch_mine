@@ -1,0 +1,20 @@
+--[[
+branch_mine - Mine for 256 blocks down a shaft, setting torches every 8 blocks.
+]]--
+function branch_mine(blocks)
+  turtle.select(1)
+  for i = 1, blocks do
+    turtle.dig()
+    turtle.up()
+    turtle.dig()
+    turtle.down()
+    if i % 8 == 0 then
+      turtle.turnRight()
+      turtle.placeUp()
+      turtle.turnLeft()
+    end
+    turtle.forward()
+  end
+end
+
+branch_mine(256)
