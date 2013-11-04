@@ -3,6 +3,8 @@
 This repo enables players to keep a collection of programs up to date (and share them)
 from a github repository.
 
+*THIS IS A WORK IN PROCESS - NOT YET WORKING*
+
 ## Usage
 
 In order to play [ComputerCraft], you need a modded version of [Minecraft][].  I've found that the easiest
